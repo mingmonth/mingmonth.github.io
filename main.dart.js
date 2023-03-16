@@ -57354,7 +57354,7 @@ j=J.aoX(k)
 a=j
 A.i3(a==null?null:a.a.c.h(0,"displayName"))
 a=t.N
-i=A.an(["Content-Type","application/json"],a,a)
+i=A.an(["Content-Type","application/json","Content-Security-Policy","upgrade-insecure-requests"],a,a)
 a=j
 h=A.aiM("GET",A.m8("http://10.12.100.63:8090/api/v1/users/?email="+A.i(a==null?null:a.a.c.h(0,"email"))))
 h.r.G(0,i)
